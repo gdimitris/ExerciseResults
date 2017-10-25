@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'lambdas.NumberValidator'
+    }
+}
+
+mainClassName = "lambdas.NumberValidator"
+
+run {
+    standardInput = System.in
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
