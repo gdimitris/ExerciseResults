@@ -3,7 +3,6 @@
  */
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.sun.tools.corba.se.idl.InterfaceGen;
 import org.junit.Test;
 
 import java.lang.reflect.Type;
